@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(https://img.freepik.com/free-vector/collection-seamless-songket-pattern_23-2148706787.jpg?t=st=1734317956~exp=1734321556~hmac=c4a5d6924b63071b42777f6f8eef470089261bb2019c9c265c1a7744f0ff7e51&w=1380);
+	background-repeat:no-repeat;
+	background-size: cover;
+	font-family: "Acme", serif;
+	color: white;
+}
+
+.header {
+	margin-top: -50px;
+	margin-bottom: 40px;
+	padding: 50px;
+	background-image: url(curry2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h3 {
+	text-align: center;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: black;
+}
+
+h1 {
+	text-align: center;
+	text-shadow: 3px 4px 2px rgba(113,0,0,0.66);
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: black;
+}
+
+p {
+	text-align: center;
+}
+
+img {
+	text-align: center;
+	justify-content: center;
+}
+
+.main {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.card1 {
+  	width:300px;
+  	background-color: #FFC107;
+  	border-radius: 6px;
+  	box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.4);
+}
+
+.card2 {
+  	width:300px;
+  	background-color: #DC3545;
+  	border-radius: 6px;
+  	box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.4);
+}
+
+.card {
+	box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.4);
+	margin-bottom: 30px;
+}
+
+
+.one {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	text-align: center;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.about-us {
+	background-color: darkred;
+}
+
+.col {
+	text-align: center;
+}
+
+.container {
+	background-color: rgba(139, 0, 0, 0.8);
+	padding: 15px;
+	margin-bottom: 25px;
+	box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.4);
+}
+
+a {
+	color: white;
+	text-decoloration: none;
+	text-decoration: none;
+}
+
+.footer {
+	background-color: #FFC107;
+	padding: 20px;
+	text-align: center;
+}
